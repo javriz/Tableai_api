@@ -25,6 +25,12 @@
 
       server = TSC.Server('https://10ax.online.tableau.com/', use_server_version=True)
 
+5. Server signin
+   ```
+    server.auth.sign_in(tableau_auth)
+   ```
+
+6. Server signout
+   ```
+   server.auth.sign_out()
 ```
-
-
